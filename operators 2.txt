@@ -1,0 +1,9 @@
+#IEBC
+age = int(input("Enter your age: "))
+citizenship = input("Enter your citizenship: ")
+countries="kenya,uganda,tanzania"
+if(age>18 and citizenship in countries):
+       print("you are eligible to vote")
+else:
+ print("you are  not eligible to vote")
+     
